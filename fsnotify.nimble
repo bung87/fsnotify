@@ -12,7 +12,7 @@ srcDir        = "src"
 requires "nim >= 1.2.6"
 requires "timerwheel >= 0.1.2"
 requires "xio >= 0.1.0"
-requires "darwin"
+requires "https://github.com/yglukhov/darwin@#head"
 
 task tests, "Run all tests":
   exec "testament all"
